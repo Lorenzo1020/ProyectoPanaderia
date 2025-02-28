@@ -19,7 +19,11 @@ public class Principal {
 		int existencia, menuPrinc, indice;
 		String sabor;
 		LocalDate fechaLabo;
-
+		
+		System.out.println("Se agregan estas lineas de codigo");
+		Float operacion = 3.1416f*5;
+		System.out.println(operacion);
+		
 		Panes pan = null;
 
 		LogicaMetodos imp = new LogicaMetodos();
